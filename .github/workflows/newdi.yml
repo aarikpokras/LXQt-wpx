@@ -1,0 +1,18 @@
+name: New Directory
+
+on:
+  workflow_dispatch:
+    inputs:
+      dir:
+        description: 'Directory name'
+        default: 'newdir'
+        required: true
+        type: string
+        
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Create directory ${{ inputs.dir }}
+      run: mkdir -p ${{ inputs.dir }}
