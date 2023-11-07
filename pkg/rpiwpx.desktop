@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Exec=./wp-change
+Name=WallpaperX
+Icon=./wpx-logo.png

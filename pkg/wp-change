@@ -1,0 +1,18 @@
+#!/bin/bash
+result=$(whiptail --fb --title "Wallpaper Wizard" --menu "Select a Wallpaper" 15 63 6 "City" "A city, bustling with people." "Space" "A landing module." "Creek" "A peaceful yet ominous creek with flowing hills." 3>&1 1>&2 2>&3)
+case $result in
+  "City")
+    sed -i 's/wallpaper=.*/wallpaper=\/usr\/share\/rpi-wpx\/wp_city.jpg/g' ~/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
+    echo "Wallpaper successfully set! If it didn't change, try logging out and then back in again."
+    ;;
+  "Space")
+    sed -i 's/wallpaper=.*/wallpaper=\/usr\/share\/rpi-wpx\/wp_space.jpg/g' ~/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
+    echo "Wallpaper successfully set! If it didn't change, try logging out and then back in again."
+    ;;
+  "Creek")
+    sed -i 's/wallpaper=.*/wallpaper=\/usr\/share\/rpi-wpx\/wp_creek.jpg/g' ~/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
+    echo "Wallpaper successfully set! If it didn't change, try logging out and then back in again."
+    ;;
+esac
+
+# .config/pcmanfm/LXDE-pi
