@@ -1,0 +1,18 @@
+name: Remove Directory
+
+on:
+  workflow_dispatch:
+    inputs:
+      dir:
+        description: 'Directory Name'
+        default: 'dir'
+        required: true
+        type: string
+        
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Remove directory ${{ inputs.dir }}
+      run: rm -rf ${{ inputs.dir }}
