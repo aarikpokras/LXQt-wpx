@@ -1,0 +1,35 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Remove peripheral files
+        run: rm README
+
+      - uses: actions/checkout@v3
+      - name: Remove peripheral directories
+        run: rm -rf .github
+
+      - uses: actions/checkout@v3
+      - name: Create archive
+        run: |
+          mkdir rpiwpx-pkg
+          mv * rpiwpx-pkg
+          zip -r rpiwpx rpiwpx-pkg
+
+      - uses: actions/upload-artifact@v3
+      - name: Upload artifact
+        with:
+          path: rpiwpx.zip
