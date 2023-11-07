@@ -4,6 +4,8 @@ A wallpaper library for Raspberry Pi OS, with an accompanying software allowing 
 ## Get it
 Get the latest artifact on the [actions page](https://github.com/aarikpokras/rpi-wpx/actions).
 
+If it's expired, get a live zip [here](https://github.com/aarikpokras/rpi-wpx/archive/refs/heads/master.zip).
+
 ## Compatibility
 * Can only be used with default DE (LXQt) on Raspberry Pi OS
 
