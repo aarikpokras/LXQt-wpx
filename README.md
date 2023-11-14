@@ -1,7 +1,7 @@
 # WallpaperX
 ![bash](https://img.shields.io/badge/-bash-black?logo=gnu-bash&style=flat-square&logoColor=white) ![GitHub repo size](https://img.shields.io/github/repo-size/aarikpokras/rpi-wpx?style=flat-square) ![GitHub](https://img.shields.io/github/license/aarikpokras/rpi-wpx?style=flat-square)
 
-A wallpaper library for Raspberry Pi OS, with an accompanying software allowing the user to select their wallpaper easily.
+A wallpaper library for Raspberry Pi OS LXQt, with an accompanying software allowing the user to select their wallpaper easily.
 
 ## Get it
 Get the latest artifact on the [actions page](https://github.com/aarikpokras/rpi-wpx/actions).
