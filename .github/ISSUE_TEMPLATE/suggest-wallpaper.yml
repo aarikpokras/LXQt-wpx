@@ -1,0 +1,25 @@
+name: Suggest a Wallpaper
+title: '[New Wallpaper] [WALLPAPER NAME HERE]'
+description: Suggest a wallpaper to add to the project
+labels: 'wp_req'
+body:
+
+# Wallpaper name
+- type: input
+  id: wp-name
+  attributes:
+    label: Wallpaper Name
+    description: "A one-or-two word name of the wallpaper."
+    placeholder: "canyon"
+  validations:
+    required: true
+
+# Image
+- type: textarea
+  id: image
+  attributes:
+    label: Wallpaper Image
+    description: "An image file of the wallpaper."
+    placeholder: "Please drag and drop a photo here."
+  validations:
+    required: true
