@@ -9,9 +9,10 @@ Get the latest artifact on the [actions page](https://github.com/aarikpokras/rpi
 If it's expired, get a live zip [here](https://github.com/aarikpokras/rpi-wpx/archive/refs/heads/master.zip).
 ## Compatibility
 * Can only be used with default DE (LXQt) on Raspberry Pi OS
+* May be usable with other OSes, but LXQt is required
 
 ## Add a wallpaper
-Please feel free to [make an issue](https://github.com/aarikpokras/LXQt-wpx/issues/new).
+Please feel free to [make an issue](https://github.com/aarikpokras/LXQt-wpx/issues/new/choose).
 
 ## Bugs
 Make an [issue](https://github.com/aarikpokras/rpi-wpx/issues/new).
