@@ -10,5 +10,8 @@ If it's expired, get a live zip [here](https://github.com/aarikpokras/rpi-wpx/ar
 ## Compatibility
 * Can only be used with default DE (LXQt) on Raspberry Pi OS
 
+## Add a wallpaper
+Please feel free to [make an issue](https://github.com/aarikpokras/LXQt-wpx/issues/new).
+
 ## Bugs
 Make an [issue](https://github.com/aarikpokras/rpi-wpx/issues/new).
