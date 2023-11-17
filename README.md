@@ -3,6 +3,8 @@
 
 A wallpaper library for Raspberry Pi OS LXQt, with an accompanying software allowing the user to select their wallpaper easily.
 
+_May also work for other OSes using LXQt_
+
 ## Get it
 Get the latest artifact on the [actions page](https://github.com/aarikpokras/rpi-wpx/actions).
 
